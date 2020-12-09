@@ -15,7 +15,7 @@ public class Capricorn extends Domestique {
 	public static void PlaySound() {
 		Domestique Domestique = new Domestique();
 		try {
-			Domestique.ReadSound("La voix de capricorn","C:\\Users\\admin\\eclipse-workspace\\javaPolymorphismeVoixDeAnimal\\sounds\\capricorn.wav");
+			Domestique.ReadSound("La voix de capricorn","sounds\\capricorn.wav");
 		} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
 			e.printStackTrace();
 		} 
