@@ -23,7 +23,7 @@ public class Animal {
 	}
 
 	public Animal() {
-		
+		super();
 	}
 
 	public String getName() {
